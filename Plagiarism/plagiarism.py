@@ -36,6 +36,6 @@ from difflib import SequenceMatcher
 
 print(" ")
 print(" ")
-Similarity = SequenceMatcher(None, file_1, file_2).ratio()
+Similarity = SequenceMatcher(None, file1, file2).ratio()
 print(f"Percentage by using of sequenceMatcher = {Similarity*100}%")
 print(f"Plagiarism percentage is manual matching = {percentage} %")
